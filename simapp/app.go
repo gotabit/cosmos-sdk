@@ -15,7 +15,7 @@ import (
 	"github.com/cometbft/cometbft/libs/log"
 	"github.com/spf13/cast"
 
-	simappparams "cosmossdk.io/simapp/params"
+	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client"

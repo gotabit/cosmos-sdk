@@ -6,7 +6,7 @@ require (
 	cosmossdk.io/api v0.3.1
 	cosmossdk.io/depinject v1.0.0-alpha.3
 	cosmossdk.io/math v1.0.0
-	cosmossdk.io/simapp v0.0.0-00010101000000-000000000000
+	github.com/cosmos/cosmos-sdk/simapp v0.0.0-00010101000000-000000000000
 	github.com/cometbft/cometbft v0.37.1
 	github.com/cometbft/cometbft-db v0.7.0
 	github.com/cosmos/cosmos-sdk v0.47.2
@@ -163,7 +163,7 @@ require (
 
 replace (
 	// We always want to test against the latest version of the simapp.
-	cosmossdk.io/simapp => ../simapp
+	github.com/cosmos/cosmos-sdk/simapp => ../simapp
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
 	// We always want to test against the latest version of the SDK.
 	github.com/cosmos/cosmos-sdk => ../.

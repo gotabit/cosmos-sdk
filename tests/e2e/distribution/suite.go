@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"cosmossdk.io/math"
-	"cosmossdk.io/simapp"
+	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/gogoproto/proto"
 	"github.com/stretchr/testify/suite"
 
